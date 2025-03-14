@@ -1,0 +1,239 @@
+{
+	"name": "Cherry Blossom UI",
+	"colors": {
+		// 🌸 Editor Colors
+		"editor.background": "#25203A",
+		"editor.foreground": "#F5CED1",
+
+		// 🎨 Activity Bar (Left-most bar with icons)
+		"activityBar.background": "#1A1A2E",
+		"activityBar.foreground": "#F5CED1",
+		"activityBarBadge.background": "#A93279", // Highlighted icons
+		"activityBarBadge.foreground": "#F8C8DC",
+		"activityBar.border": "#382A4C",
+
+		// 🔖 Active Tab (Selected file)
+		"tab.activeBackground": "#443659", // Cherry Blossom Pink
+		"tab.activeForeground": "#f9e8ef", // Soft Moonlight text
+		"tab.activeBorder": "#f9e8ef", // Soft Moonlight underline
+		"tab.activeBorderTop": "#F5CED1", // glowing effect
+
+		// 📂 Inactive Tabs (Other open files)
+		"tab.inactiveBackground": "#2C213E", // Dark purple
+		"tab.inactiveForeground": "#C1A9D1", // Lavender
+
+		// 🖱️ Hover Effects on Tabs
+		"tab.hoverBackground": "#443659", // Moonlight glow
+		"tab.hoverForeground": "#f9e8ef",
+		"tab.border": "#382A4C", // Soft border between tabs
+
+		// 🏠 Sidebar (File Explorer, Extensions, etc.)
+		"sideBar.background": "#1E1B2C", // Dark purple for a soft contrast
+		"sideBar.foreground": "#C1A9D1", // Soft lavender for text
+		"sideBar.border": "#382A4C", // Subtle border separation
+		"sideBarTitle.foreground": "#f9e8ef", // Matches the Sakura tree leaves
+		"sideBarSectionHeader.background": "#2C213E", // Section header
+		"sideBarSectionHeader.foreground": "#f9e8ef", // Pink Sakura glow
+
+		// 🖼️ Scrollbars (Smooth visibility)
+		"scrollbar.shadow": "#00000099",
+		"scrollbarSlider.background": "#A9327977",
+		"scrollbarSlider.hoverBackground": "#A93279BB",
+		"scrollbarSlider.activeBackground": "#F5CED1AA",
+
+		// 🔍 Input Fields & Dropdowns (For searches, popups, etc.)
+		"input.background": "#2C213E",
+		"input.foreground": "#F5CED1",
+		"input.border": "#A93279",
+		"dropdown.background": "#2C213E",
+		"dropdown.foreground": "#F5CED1",
+		"dropdown.border": "#A93279",
+
+		// ✨ Status Bar (Bottom bar)
+		"statusBar.background": "#2C213E",
+		"statusBar.foreground": "#F5CED1",
+		"statusBar.border": "#382A4C",
+
+		// 📌 Breadcrumb Navigation
+		"breadcrumb.foreground": "#C1A9D1",
+		"breadcrumb.focusForeground": "#F8C8DC",
+		"breadcrumb.background": "#1E1B2C",
+
+		// 🔍 Command Palette & Quick Open
+		"quickInput.background": "#2C213E",
+		"quickInput.foreground": "#F5CED1",
+		"quickInputList.focusBackground": "#A93279AA",
+
+		// 📝 Terminal Colors
+		"terminal.background": "#1E1B2C",
+		"terminal.foreground": "#F5CED1",
+		"terminal.ansiBrightMagenta": "#FF80AB",
+
+		// 🌸 Borders & Highlights
+		"focusBorder": "#A93279",
+		"panel.border": "#382A4C",
+		"editorGroupHeader.tabsBackground": "#1E1B2C", // Dark, blends with sidebar
+		"editorGroup.border": "#382A4C"
+	},
+	"tokenColors": [
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#A6D18A", // Soft green (matches sidebar title)
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable",
+				"string constant.other.placeholder"
+			],
+			"settings": {
+				"foreground": "#eb9f9f" // Light Sakura Pink
+			}
+		},
+		{
+			"name": "Keywords & Storage",
+			"scope": [
+				"keyword",
+				"storage",
+				"storage.type",
+				"storage.modifier"
+			],
+			"settings": {
+				"foreground": "#E67DA3", // Cherry Blossom Red-Pink
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Functions & Methods",
+			"scope": [
+				"entity.name.function",
+				"meta.function-call",
+				"variable.function",
+				"support.function",
+				"keyword.other.special-method"
+			],
+			"settings": {
+				"foreground": "#bbe6f2" // Soft blue
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string",
+				"constant.other.symbol",
+				"constant.other.key",
+				"entity.other.inherited-class"
+			],
+			"settings": {
+				"foreground": "#F8C8DC" // Sakura Petal Pink
+			}
+		},
+		{
+			"name": "Numbers, Constants & Booleans",
+			"scope": [
+				"constant.numeric",
+				"constant.language",
+				"constant.character",
+				"constant.escape",
+				"variable.parameter"
+			],
+			"settings": {
+				"foreground": "#F78C6C" // Soft Coral Peach
+			}
+		},
+		{
+			"name": "Operators & Punctuation",
+			"scope": [
+				"keyword.operator",
+				"punctuation",
+				"meta.tag",
+				"punctuation.definition.tag",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+			],
+			"settings": {
+				"foreground": "#89DDFF" // Cool Sky Blue for contrast
+			}
+		},
+		{
+			"name": "HTML & JSX Tags",
+			"scope": [
+				"entity.name.tag",
+				"meta.tag",
+				"markup.deleted.git_gutter"
+			],
+			"settings": {
+				"foreground": "#E67DA3" // Same as keywords for consistency
+			}
+		},
+		{
+			"name": "Class Names & Type Definitions",
+			"scope": [
+				"entity.name.class",
+				"support.class",
+				"support.other.namespace.use.php",
+				"meta.use.php",
+				"support.other.namespace.php",
+				"markup.changed.git_gutter",
+				"support.type.sys-types"
+			],
+			"settings": {
+				"foreground": "#FFCB6B" // Warm golden glow for clarity
+			}
+		},
+		{
+			"name": "Attributes",
+			"scope": [
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#C792EA" // Lavender for soft contrast
+			}
+		},
+		{
+			"name": "Markdown Headings",
+			"scope": [
+				"markup.heading",
+				"markup.heading entity.name"
+			],
+			"settings": {
+				"foreground": "#C3E88D", // Matches Sidebar Titles
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown Bold",
+			"scope": [
+				"markup.bold",
+				"markup.bold string"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#f07178"
+			}
+		},
+		{
+			"name": "Markdown Italic",
+			"scope": [
+				"markup.italic"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#f07178"
+			}
+		}
+	]
+	
+}
