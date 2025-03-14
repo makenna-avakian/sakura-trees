@@ -3,11 +3,11 @@
 	"colors": {
 		// 🌸 Editor Colors
 		"editor.background": "#25203A",
-		"editor.foreground": "#F5CED1",
+		"editor.foreground": "#fbedee",
 
 		// 🎨 Activity Bar (Left-most bar with icons)
 		"activityBar.background": "#1A1A2E",
-		"activityBar.foreground": "#F5CED1",
+		"activityBar.foreground": "#c3bfbf",
 		"activityBarBadge.background": "#A93279", // Highlighted icons
 		"activityBarBadge.foreground": "#F8C8DC",
 		"activityBar.border": "#382A4C",

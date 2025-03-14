@@ -1,8 +1,14 @@
 {
-  "name": "sakura-trees",
-  "displayName": "sakura-trees",
-  "description": "A dark cherry blossom themed UI for VS Code. Features purples, pinks, and some greens.",
-  "version": "0.0.1",
+  "name": "moonlit-sakura-trees",
+  "displayName": "Moonlit Cherry Blossoms",
+  "description": "A dark cherry blossom themed UI for VS Code. Features purples, pinks, and some cozy greens.",
+  "version": "1.0.0",
+  "publisher": "Makennza",
+  "icon": "images/icon.png",
+  "license": "CC-BY-4.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/makenna-avakian/sakura-trees.git"},
   "engines": {
     "vscode": "^1.98.0"
   },
@@ -12,7 +18,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Moonlight Cherry Blossoms",
+        "label": "Moonlit Cherry Blossoms",
         "uiTheme": "vs-dark",
         "path": "./themes/Cherry-Blossom-UI-color-theme.json"
       }
